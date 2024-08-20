@@ -1,1 +1,92 @@
 @charset "UTF-8";
+
+/*Paleta de cores da tela de login
+
+Azul Escuro (#1B263B): Funciona bem para o fundo ou como cor de destaque, transmitindo confiança e seriedade.
+
+Cinza Claro (#F0F0F0): Ótimo para áreas de fundo secundárias, como campos de texto ou o fundo da tela de login, oferecendo um contraste suave.
+
+Branco (#FFFFFF): Usado para texto ou elementos que precisam se destacar sobre o fundo mais escuro.
+
+Cinza Médio (#A9A9A9): Para botões ou ícones, fornecendo um equilíbrio entre os elementos de cor.
+
+Amarelo Dourado (#FFD700): Um toque de cor vibrante para botões de ação ou elementos interativos, chamando a atenção sem ser excessivamente brilhante.
+
+Altura e largura para o Mobile first
+
+Largura (Width): 320px a 480px
+Altura (Height): Ajustável conforme o conteúdo, geralmente entre 640px a 800px
+*/
+
+:root{
+    --botom: #FFD700;
+    --text: #FFFFFF;
+    --icons:#A9A9A9;
+    --ndback:#F0F0F0;
+    --stback:#1B263B;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B263B;
+    color: black;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+ main > section#login{
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    box-shadow: -1px 0px 16px 2px #000000ab;
+ }
+
+ main > section > div#imagens{
+    background: url(../imagens/back-login.jpg) no-repeat;
+    height: 180px;
+    background-size: cover;
+    background-position: bottom center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+
+ main > section > div#formulário > h1{
+    text-align: center;
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 1px 1px #fbf7f7c7;
+ }
+
+ main > section > div#formulário > #p1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+ }
+
+ 
+ main > section > div#formulário > #p2{
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 1.1em;
+ }
+
+ main > section > div#formulário{
+    padding: 15px;
+    
+ }
+
