@@ -63,6 +63,7 @@ main{
     background-position: bottom center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    display: block;
  }
 
  main > section > div#formulário > h1{
@@ -87,6 +88,6 @@ main{
 
  main > section > div#formulário{
     padding: 15px;
-    
+    display: block;
  }
 
