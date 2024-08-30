@@ -39,13 +39,15 @@ html, body{
     color: black;
 }
 
+/*Main section*/
+
 main{
     width: 100vw;
     height: 100vh;
     position: relative;
 }
  main > section#login{
-    width: 260px;
+    width:274.1px;
     height: 450px;
     position: absolute;
     top: 50%;
@@ -66,28 +68,24 @@ main{
     display: block;
  }
 
+ main > section > div#formulário{
+   padding: 15px;
+   display: block;
+}
+
  main > section > div#formulário > h1{
     text-align: center;
     padding: 5px;
     color: black;
     text-shadow: 2px 1px 1px #fbf7f7c7;
+    margin-bottom: 4px;
  }
 
- main > section > div#formulário > #p1{
-    text-align: center;
-    margin-bottom: 5px;
-    font-size: 1.1em;
+ main > section > div#formulário > p{
+    font-size: 1em;
  }
 
  
- main > section > div#formulário > #p2{
-    text-align: center;
-    margin-bottom: 7px;
-    font-size: 1.1em;
- }
 
- main > section > div#formulário{
-    padding: 15px;
-    display: block;
- }
+
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./estilos/estilos.css">
     <link rel="stylesheet" href="./estilos/media-query.css">
     <title>Tela de Login</title>
@@ -15,11 +16,24 @@
 
             <div id="formulário">
                 <h1>Login</h1>
-                <p id="p1">Seja bem vindo(a) novamente. </p>
-                <p id="p2"> Faça login para poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem vindo(a) novamente. </p>
+                <p> Faça login para poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <label for="name">Nome completo:</label>
-                    <input type="text" name="nome" id="name">
+
+                    <div class="combo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="mail" id="iemail" placeholder="Digite seu e-mail" required maxlength="30">
+                        <label for="iemail">Login</label>
+                    </div>
+
+                    <div class="combo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="8" maxlength="15">
+                        <label for="isenha">Senha</label>
+                    </div>
+
+                    <input type="submit" value="Enviar">
+                    <a href="#"> <span class="material-symbols-outlined">email</span> Esqueci a minha senha</a>
                 </form>
             </div>
         </section>

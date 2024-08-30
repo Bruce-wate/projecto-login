@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 780px) and (max-width: 992px){
 
     body{
         background-image: linear-gradient(to bottom, #2c3e50, #bdc3c7  );
@@ -38,30 +38,35 @@
     body{
         background-image: linear-gradient(to bottom, #2c3e50, #bdc3c7  );
     }
-    
+
     main > section#login {
         width: 60vw;
 
     }
 
     section#login > div#imagens{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background: url(/imagens/back-login.jpg);
         background-size: cover;
         background-position: center center;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 0px;
         
     }
 
     section#login > div#formulário{
-        float: right;
+        float:left;
         width: 50%;
     }
 
     section#login > div#formulário > h1{
         font-size: 2em;
     }
+
+    main > section > div#formulário > p{
+        font-size: 1.2em;
+     }
 }
