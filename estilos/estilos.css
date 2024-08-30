@@ -45,6 +45,7 @@ main{
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
  main > section#login{
     width:274.1px;
