@@ -60,7 +60,7 @@ main{
     text-align: center;
     color: black;
     text-shadow: 2px 1px 1px #fbf7f7c7;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
  }
 
  main > section > div#formulário > p{
@@ -116,7 +116,7 @@ main{
    width: 100%;
    display: block;
    margin: 4px 0px;
-   padding:3px;
+   padding:1px;
  }
 
  main > section > div#formulário > form > div.combo > label{
