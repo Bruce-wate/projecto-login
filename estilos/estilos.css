@@ -117,7 +117,7 @@ main{
    width: 100%;
    display: block;
    margin: 4px 0px;
-   padding:5px;
+   padding:3px;
  }
 
  main > section > div#formulário > form > div.combo > label{
