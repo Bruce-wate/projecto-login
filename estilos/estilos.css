@@ -136,12 +136,13 @@ main{
     width: calc(100% - 40px);
     height: 30px;
     padding-left: 10px;
-    background-color: #A0A8A8;
+    background-color: #bfc2c2;
     border: none;
     border-radius: 6px;
     position: relative;
     top: -3.5px;
     left: 5px;
+
  }
  
  main > section > div#formulário > form > div.combo > input:focus-within{
